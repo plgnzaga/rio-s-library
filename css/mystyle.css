@@ -1,0 +1,339 @@
+*{
+	font-family: "Open Sans";
+	font-size: 17px;
+	text-decoration: none;
+}
+.btn{
+	width:100%;
+}
+
+body{
+	
+}
+div.wrapper{
+	max-width: 800px;
+	padding:40px 20px;
+	margin:0 auto;
+	background-color: #232323;
+	color: white;
+}
+div.navigation{
+	display: flex;
+	justify-content: space-around;
+	padding: 1px;
+	padding-bottom:8px;
+	/*color: #3b4b62;*/
+	background-color: #3C5D93;
+
+}
+div.navigation button{
+	display: flex;
+	flex-basis: 50%;
+	margin-top:8px;
+	
+}
+
+div.navigation p{
+	flex-basis: 50%;
+	text-align: center;
+	cursor: pointer;
+	color: antiquewhite;
+	font-size: 30px;
+	font-family: "KENZO";
+	margin:0;
+	padding:0;
+}
+div.accounts{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.accounts section{
+	flex-basis: 100%;
+}
+div.accounts hr{
+	flex-basis: 100%;
+	border: 1px solid lightgray;
+}
+
+div.accounts p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+div.accounts input{
+	margin:10px 0;
+}
+div.accounts form p{
+	font-size: 13px;
+	font-weight: lighter;
+	color:#AAADAF;
+}
+div.accounts span.required{
+	color: pink;
+}
+div.book-container{
+	padding: 30px;
+	margin:20px;
+	background-color: lightblue;
+}
+div.book-container img{
+	max-width: 180px;
+	min-width: 180px;
+	max-height: 260px;
+	min-height: 260px;
+}
+
+span#error{
+	font-size: 13px;
+	color: pink;
+}
+
+/* account */
+div.wrapper.profile{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.wrapper img.profilelogo{
+	flex-basis: 100%;
+	max-height: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	min-width: 100px;
+	margin-bottom: 10px;
+}
+
+div.wrapper.profile span{
+	font-size: 14px;
+	text-align: center;
+	flex-basis: 100%;
+}
+div.wrapper.profile h4{
+	flex-basis: 100%;
+}
+/*
+div.wrapper.profile section.books{
+	flex-basis: 50%;
+	background-color: lightgray;
+	padding:10px;
+	margin:20px auto;
+	color: #232323;
+	display: flex;
+}
+div.wrapper.profile section.books div{
+	flex-basis: 30%;
+}
+
+div.wrapper.profile section.books div:last-child{
+	margin-top:20px;
+}
+div.wrapper.profile section.books img{
+	border:2px solid #232323;
+	max-width: 150px;
+	min-width: 150px;
+	max-height: 200px;
+	min-height: 200px;
+}
+*/
+div.wrapper.profile input[type="button"],div.wrapper.books section.books input[type="submit"]{
+	width: 100%;
+	background-color: #5CB85C;
+	border-radius: 4px;
+	padding:10px;
+	border:none;
+	color:white;
+	margin:2px auto;
+	text-align: center;
+}
+
+div.wrapper.profile input[type="button"]:hover,div.wrapper.books section.books input[type="submit"]:hover{
+	background-color: transparent;
+	color:#5CB85C;
+	border:2px solid #5CB85C;
+	transition: .5s ease-in-out;	
+}
+
+div.wrapper.profile section{
+	flex-basis: 100%;
+}
+
+div.wrapper.profile a {
+	text-decoration: none;
+}
+
+div.search{
+	display: flex;
+	flex-wrap: wrap;
+}
+div.search label,div.search input,div.search h4{
+	flex-basis: 100%;
+}
+div.search input{
+	width: 100%;
+	margin:10px auto;
+	color: #232323;
+	padding:5px;
+}
+div.search select{
+	width: 100%;
+	height: 36px;
+	color: #232323;
+	margin:10px auto;
+}
+div.results{
+	padding-top:20px;
+}
+
+div.results div.book-box{
+	margin:30px auto;	
+}
+div.book-box .btn-success{
+	color: white;
+}
+
+div.back{
+	display: flex;
+}
+div.back a{
+	flex-basis: 100%;
+}
+div.back a button.btn-primary{
+	width: 100%;
+}
+
+div.wrapper.search {
+	display: flex;
+	flex-wrap: wrap;
+	
+	justify-content: space-around;
+}
+div.wrapper.search h4 {
+	flex-basis: 100%;
+	margin-bottom: 50px;
+}
+div.wrapper.search div {
+	flex-basis: 100%;
+}
+
+div.wrapper.results{
+	border-top:2px solid white;
+	display: flex;
+	flex-wrap: wrap;
+}
+div.wrapper.results div.results{
+	flex-basis: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+div.wrapper.results div.results span{
+	flex-basis: 100%;
+	margin-bottom: 20px;
+}
+div.wrapper.results div.results section.book-box{
+	flex-basis: 30%;
+	display: flex;
+}
+
+
+div.wrapper.results div.results section.book-box div img{
+	margin:0 auto;
+	max-width: 250px;
+	min-width: 250px;
+	max-height: 350px;
+	min-height: 350px;
+}
+
+
+div.wrapper.profile.books{
+	display: flex;
+
+}
+
+div.wrapper.profile.books section{
+	flex-basis: 100%;
+}
+/*fav #232323 #24292E #AAADAF*/
+div.wrapper.add_books{
+	max-width: 500px;
+}
+div.wrapper.add_books input{
+	margin:10px auto;
+}
+
+
+div.wrapper.borrowed span.title{
+	color: dodgerblue;
+}
+div.wrapper.unborrowed span.title{
+	color: skyblue;
+}
+section.available{
+	background-color: #5CB85C;
+}
+
+section.unavailable{
+	background-color: #A53153;	
+}
+
+section.available,section.unavailable{
+	color: white;
+	padding: 4px;
+	cursor: pointer;
+}
+
+div.wrapper.books{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+div.wrapper.books h4{
+	flex-basis: 100%;
+}
+div.wrapper.books section{
+	
+	flex-basis: 30%;
+	padding:5px;
+	margin:10px auto;
+}
+div.wrapper.books img{
+	max-width: 240px;
+	min-width: 240px;
+	max-height: 350px;
+	min-height: 350px;
+}
+div.wrapper.return-home{
+	max-width: 280px;
+}
+
+@media only screen and (min-width: 700px) {
+
+   div.accounts hr{
+   		display: none;
+	}
+	div.accounts{
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+	div.accounts section{
+	flex-basis: 40%;
+	}
+
+	div.wrapper.profile{
+		max-width: 500px;	
+	}
+
+
+	div.wrapper img.profilelogo{
+	max-height: 130px;
+	min-height: 130px;
+	max-width: 130px;
+	min-width: 130px;
+}
+div.wrapper.profile h4{
+	font-size: 25px;
+}
+
+}
