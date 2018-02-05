@@ -130,7 +130,7 @@ INSERT INTO `users` (`user_id`, `email`, `password`, `surname`, `middlename`, `f
 (9, 'elie@yahoo.com', 'edf601e4cb424d4015feef0ba71f9327', 'Eliezer', 'Ballad', 'Quirong', 0),
 (11, 'aryastark@yahoo.com', 'edf601e4cb424d4015feef0ba71f9327', 'Stark', '', 'Arya', 0),
 (12, 'littlefinger@yahoo.com', 'edf601e4cb424d4015feef0ba71f9327', 'littlefinge', '', 'Baylish', 0),
-(13, 'plstephengnzaga@gmail.com', 'edf601e4cb424d4015feef0ba71f9327', 'Gonzaga', 'Transfiguracion', 'Paul Stephen', 0),
+(13, 'plstephengnzaga@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 'Gonzaga', 'Transfiguracion', 'Paul Stephen', 0),
 (14, 'clayjensen@yahoo.org', '827ccb0eea8a706c4c34a16891f84e7b', 'Jensen', '', 'Clay', 0);
 
 --
